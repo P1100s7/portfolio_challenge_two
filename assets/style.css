@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* apply styles to <header> !!!!!!! cant see header materials but they are there !!!!!!!!!*/
+header {
+    padding: 20px 35px;
+    background-color: orange
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: darkgreen;
+    margin: 0px;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* how to get footer to center h2 */
+footer {
+    background: orange;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: darkgreen;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: center;
+    line-height: 1.5;
+    text-align: center;
+}
+
+footer a {
+    color: darkgreen;
+}
+section {
+    padding: 60px;
+   
+}
+/* Hero Style Start */
+#pine-tree {
+    max-width: 60%;
+    display: block;
+    text-align: center;
+    border: solid orange 2px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.hero {
+    background-color: darkgreen;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form {
+    background-color: green;
+    padding: 20px;
+    width: 500px;
+    color: darkgreen;
+    border: solid 3px orange;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+
+}
+.form-input {
+    border: 1px solid darkgreen;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: darkgreen;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-from lablel {
+    margin: 0 5px;
+
+}
+.hero-form button {
+    color: orange;
+    background-color: darkgreen;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.intro {
+    text-align: center;
+}
+.intro p {
+    line-height: 1.7;
+    color: green;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.steps {
+    text-align: center;
+    background: orange;
+}
+.section-title {
+    font-size: 55px;
+    color: darkgreen;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border {
+    border-color: orange;
+}
+.secondary-border {
+    border-color: green;
+}
+.steps div {
+    margin-bottom: 80px;
+}
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3 {
+    color: darkgreen;
+    font-size: 46px;
+    margin-top: 10px;
+}
+.steps p {
+    color: green;
+    font-size: 23px;
+}
+.steps span {
+    font-size: 38px;
+}
+.trainers {
+    text-align: center;
+}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: darkgreen;
+    color: orange;
+    overflow: auto;
+}
+.trainer img {
+    width: 35%;
+    float: left;
+}
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.text-left {
+    text-align: left;
+}
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.contact {
+    text-align: center;
+    background: darkgreen;
+}
+.contact h2 {
+    color: orange;
+}
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+.contact div {
+    width: 410px;
+    display: inline-flex;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+}
+.contact h3 {
+    color: orange;
+    font-size: 32px;
+}
+.contact p, .contact address {
+    margin: 0;
+    line-height: 0;
+    font-style: normal;
+}
+.contact a {
+    color: orange;
+}
